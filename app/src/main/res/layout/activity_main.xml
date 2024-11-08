@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_profile" />
+
+    <EditText
+        android:id="@+id/etNumberInput"
+        android:layout_width="353dp"
+        android:layout_height="58dp"
+        android:autofillHints=""
+        android:hint="@string/enter_your_number_here"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tvNumberDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_number_is"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnOkay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/okay" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

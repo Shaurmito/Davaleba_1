@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Davaleba</string>
+    <string name="todo">TODO</string>
+    <string name="enter_your_number_here">enter your number here</string>
+    <string name="your_number_is">your number is</string>
+    <string name="okay">Okay</string>
+    <string name="next">Next</string>
+</resources>
